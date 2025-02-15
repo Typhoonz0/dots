@@ -1,0 +1,4 @@
+# Autostart
+echo
+fastfetch -c /home/liam/.config/fastfetch/minicfg.jsonc --logo small
+echo
