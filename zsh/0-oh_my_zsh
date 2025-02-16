@@ -1,11 +1,11 @@
 # Oh My Zsh 
-# I've chosen to use a more  lightweight approach to omz but I'll keep the original commented
+# I've chosen to use a more lightweight approach to omz but I'll keep the original below
 PROMPT='%F{green}➜%f  %F{cyan}%~%f ' 
 export LS_OPTIONS='--color=auto'
 eval "$(dircolors -b)"
 alias ls='ls $LS_OPTIONS'
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 
-# export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 # export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME="robbyrussell"
 # plugins=(git zsh-autosuggestions fast-syntax-highlighting zsh-autocomplete)
