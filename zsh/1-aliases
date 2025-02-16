@@ -12,9 +12,9 @@ alias cfg1="nvim /home/liam/.config/zsh/1-aliases"
 alias cfg2="nvim /home/liam/.config/zsh/2-autostart"
 
 alias hycfg="nvim /home/liam/.config/hypr/hyprland.conf"
-alias hycfg0="nvim /home/liam/.config/hypr/general.conf"
-alias hycfg1="nvim /home/liam/.config/hypr/binds.conf"
-alias hycfg2="nvim /home/liam/.config/hypr/look.conf"
+alias hycfg0="nvim /home/liam/.config/hypr/0-general.conf"
+alias hycfg1="nvim /home/liam/.config/hypr/1-binds.conf"
+alias hycfg2="nvim /home/liam/.config/hypr/2-look.conf"
 
 alias ff="fastfetch"
 alias nf="fastfetch -c neofetch.jsonc"
