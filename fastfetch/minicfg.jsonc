@@ -8,11 +8,7 @@
         "format": "Arch Linux"
   
       },
-    {
-      "type": "host",
-      "format": "Surface Pro 9"
-
-    },
+    "host",
     "packages",
    // "shell",
   // "display",
