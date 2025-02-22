@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd
 # Clone the repository and navigate into the directory
 git clone https://github.com/Typhoonz0/dots.git && cd dots || exit
 
@@ -109,4 +110,6 @@ done
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 yay -S wlogout
 
+cd ..
+rm -fr dots
 echo "Installation and configuration setup complete."
