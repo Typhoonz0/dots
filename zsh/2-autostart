@@ -1,4 +1,4 @@
 # Autostart
 echo
-fastfetch -c /home/liam/.config/fastfetch/minicfg.jsonc --logo small
+fastfetch -c /home/$USER/.config/fastfetch/minicfg.jsonc --logo small
 echo
