@@ -1,8 +1,11 @@
 #!/bin/bash
 
 cd
+if ! git >/dev/null 2>&1; then
+ sudo pacman -S git
+fi
 # Clone the repository and navigate into the directory
-git clone https://github.com/Typhoonz0/dots.git && cd dots || exit
+git clone https://github.com/Typhoonz0/dots.git && cd dots
 
 # Function to print the prompt
 prompt() {
